@@ -1,0 +1,65 @@
+body {
+    /* fallback for old browsers */
+    background: #01040a;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(1, 27, 68), rgb(4, 108, 156));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(3, 22, 53), rgb(11, 64, 88))
+  }
+  .bg-orange{
+
+    background-color: #f8e005;
+  }
+  .card-registration
+  {
+
+    margin-left: 10px;
+  }
+
+  .space{
+
+    margin-left: 50px;
+    padding-left: 50px;
+  }
+  .bg-indigo {
+    background-color: #070322;
+  }
+  .delete{
+    background-color: #e02727;
+
+  }
+  @media (min-width: 1025px) {
+    .h-custom {
+      height: 100vh !important;
+    }
+  }
+  
+  @media (min-width: 759px) {
+    .card-registration-2 .bg-indigo {
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+  }
+  
+  @media (max-width: 758px) {
+    .card-registration-2 .bg-indigo {
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+  }
+  
+  @media (min-width: 759px) {
+    .card-registration-2 .bg-white {
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+    }
+  }
+  
+  @media (max-width: 758px) {
+    .card-registration-2 .bg-white {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+  }
